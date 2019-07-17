@@ -14,6 +14,7 @@ body {
     background-color: #1C2230;
     color: white;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -99,12 +100,44 @@ header {
         
 
         p {
-            width: 60%;
+            width: 50%;
             text-align: center;
-            margin-left: 140px;
+            margin-left: 180px;
             margin-bottom: 100px;
             font-weight: 300;
-            font-size: 1rem;
+            font-size: .9rem;
+        }
+    }
+}
+
+
+// how it works section
+
+.how-it-works {
+    display: flex;
+    background: #181F2B;
+    padding-left: 120px;
+    padding-top: 80px;
+    font-family: @bodyFont;
+
+    .how-it-works-text {
+        margin-left: 60px;
+        margin-top: 80px;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-weight: 300;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 300;
+            border-bottom: 1px solid @btnColor;
+            padding-bottom: 3px;
+            color: @btnColor;
         }
     }
 }

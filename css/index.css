@@ -2,6 +2,7 @@ body {
   background-color: #1C2230;
   color: white;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 .container {
   background-image: url(/images/bg-curvy-desktop.svg);
@@ -67,10 +68,34 @@ header .navbar img {
   text-align: center;
 }
 .features .features-flex p {
-  width: 60%;
+  width: 50%;
   text-align: center;
-  margin-left: 140px;
+  margin-left: 180px;
   margin-bottom: 100px;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+.how-it-works {
+  display: flex;
+  background: #181F2B;
+  padding-left: 120px;
+  padding-top: 80px;
+  font-family: 'Open Sans', sans-serif;
+}
+.how-it-works .how-it-works-text {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+.how-it-works .how-it-works-text h2 {
+  font-size: 2.5rem;
+}
+.how-it-works .how-it-works-text p {
+  font-weight: 300;
+}
+.how-it-works .how-it-works-text a {
+  text-decoration: none;
+  font-weight: 300;
+  border-bottom: 1px solid #4EC3D3;
+  padding-bottom: 3px;
+  color: #4EC3D3;
 }
