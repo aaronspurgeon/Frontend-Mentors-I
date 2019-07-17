@@ -40,6 +40,7 @@ header .navbar img {
 .top-content p {
   line-height: 1.5;
   font-size: 1.2rem;
+  font-weight: 300;
   width: 600px;
   margin: 0 auto;
 }
@@ -51,4 +52,25 @@ header .navbar img {
   background: #4EC3D3;
   border: none;
   color: white;
+}
+.features {
+  width: 100%;
+  margin-top: 180px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background: #181F2B;
+  font-family: 'Open Sans', sans-serif;
+}
+.features .features-flex {
+  width: 50%;
+  text-align: center;
+}
+.features .features-flex p {
+  width: 60%;
+  text-align: center;
+  margin-left: 140px;
+  margin-bottom: 100px;
+  font-weight: 300;
+  font-size: 1rem;
 }

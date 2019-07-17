@@ -65,6 +65,7 @@ header {
     p {
         line-height: 1.5;
         font-size: 1.2rem;
+        font-weight: 300;
         width: 600px;
         margin: 0 auto;
     }
@@ -77,5 +78,33 @@ header {
         background: @btnColor;
         border: none;
         color: white;
+    }
+}
+
+// features
+
+.features {
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background: #181F2B;
+    font-family: @bodyFont;
+    
+
+    .features-flex {
+        width: 50%;
+        text-align: center;
+        
+
+        p {
+            width: 60%;
+            text-align: center;
+            margin-left: 140px;
+            margin-bottom: 100px;
+            font-weight: 300;
+            font-size: 1rem;
+        }
     }
 }
