@@ -1,0 +1,47 @@
+@import 'mixins.less';
+
+
+// .attribution {
+//     font-size: 11px;
+//     text-align: center;
+//   }
+
+//   .attribution a {
+//     color: hsl(228, 45%, 44%);
+//   }
+
+body {
+    background-color: #1C2230;
+    color: white;
+    margin: 0 auto;
+}
+
+.container {
+    background-image: url(/images/bg-curvy-desktop.svg);
+    background-size: cover;
+    width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+
+    .navbar {
+
+        a {
+            text-decoration: none;
+            margin-right: 40px;
+            color: white;
+            font-family: @headerFont;
+            font-weight:100;
+        }
+
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+}
