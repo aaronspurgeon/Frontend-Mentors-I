@@ -86,10 +86,10 @@ header {
 
 .features {
     width: 100%;
-    margin-top: 180px;
+    margin-top: 175px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     background: #181F2B;
     font-family: @bodyFont;
     
@@ -117,7 +117,7 @@ header {
     display: flex;
     background: #181F2B;
     padding-left: 120px;
-    padding-top: 80px;
+    padding-top: 60px;
     font-family: @bodyFont;
 
     .how-it-works-text {
@@ -138,6 +138,81 @@ header {
             border-bottom: 1px solid @btnColor;
             padding-bottom: 3px;
             color: @btnColor;
+            
+            img {
+                position: relative;
+                top: 4px;
+            }
         }
+    }
+}
+
+//reviews 
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    width: 100%;
+    background: #181F2B;
+    padding: 180px 0px;
+    font-family: @bodyFont;
+    font-weight: 300;
+
+    img {
+        width: 4%;
+        height: 20%;
+        z-index: 1;
+        position: relative;
+        left: 163px;
+        bottom: 38px;
+    }
+
+    .review-card {
+        width: 20%;
+        height: 175px;
+        background:#21293C;
+        padding: 1% 2%;
+        border-radius: 4px;
+        display: flex;
+        flex-flow: row wrap;
+        z-index: 2;
+        
+        img {
+            border-radius: 50%;
+            width: 10%;
+            height: 15%;
+        }
+        
+
+        p {
+            font-size: .9rem;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            margin-top: 25px;
+        }
+
+        .people {
+            margin-left: 10px;
+
+           .person {
+               position: relative;
+               bottom: 28px;
+           }
+
+           .title {
+               position: relative;
+               bottom: 50px;
+               font-size: .5rem;
+           }
+        }
+    }
+
+    .left {
+        margin-left: 90px;
+    }
+
+    .right {
+        margin-right: 130px;
     }
 }
