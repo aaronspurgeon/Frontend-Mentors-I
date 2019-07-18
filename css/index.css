@@ -10,7 +10,6 @@ body {
   background-position-y: 825px;
   width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 header {
   display: flex;
@@ -159,6 +158,10 @@ header .navbar img {
 .reviews .right {
   margin-right: 100px;
 }
+.sign-up-container {
+  width: 100%;
+  background-color: #0C1524;
+}
 .sign-up {
   text-align: center;
   margin: 0 auto;
@@ -199,4 +202,72 @@ header .navbar img {
   color: lightgray;
   padding-left: 30px;
   font-size: 0.9rem;
+}
+.bottom-content {
+  height: 320px;
+  background-color: #0C1524;
+}
+.bottom-content img {
+  padding-bottom: 20px;
+  padding-left: 180px;
+}
+.bottom-flex {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 30;
+  padding-top: 20px;
+  width: 75%;
+  margin: 0 auto;
+}
+.bottom-flex .location {
+  display: flex;
+  position: relative;
+  bottom: 20px;
+}
+.bottom-flex .location p {
+  margin-left: 30px;
+}
+.bottom-flex .location i {
+  padding-top: 22px;
+}
+.bottom-flex .bottom-nav {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-flex .bottom-nav a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+}
+.bottom-flex .bottom-contact {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-flex .bottom-contact div {
+  padding-bottom: 10px;
+}
+.bottom-flex .bottom-contact i {
+  padding-right: 20px;
+}
+.bottom-flex .bottom-contact span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+}
+.bottom-flex .social-media i {
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 60%;
+  margin-right: 15px;
+}
+footer {
+  opacity: 0.6;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }
